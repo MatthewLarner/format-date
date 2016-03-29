@@ -1,3 +1,5 @@
+Republished after azer removed it.
+
 ## format-date
 
 Takes a string and a date object, returns what you expect

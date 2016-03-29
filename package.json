@@ -1,7 +1,7 @@
 {
   "name": "format-date",
-  "version": "0.0.1",
-  "description": "Takes a string and a date object, returns what you expect",
+  "version": "0.0.2",
+  "description": "Takes a string and a date object",
   "main": "index.js",
   "scripts": {
     "test": "node test"
@@ -14,11 +14,14 @@
     "time"
   ],
   "repository": {
-    "url": "git@github.com:azer/format-date.git",
+    "url": "git+ssh://git@github.com/matthewLarner/format-date.git",
     "type": "git"
   },
   "author": "azer",
-  "license": "BSD",
+  "maintainers": [
+    "Matt Larner <matt.larner.dev@gmail.com>"
+  ],
+  "license": "ISC",
   "dependencies": {
     "format-text": "0.0.3",
     "left-pad": "0.0.3",
@@ -27,5 +30,9 @@
   },
   "devDependencies": {
     "prova": "^1.14.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/matthewLarner/format-date/issues"
+  },
+  "homepage": "https://github.com/matthewLarner/format-date#readme"
 }
