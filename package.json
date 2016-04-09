@@ -1,6 +1,6 @@
 {
   "name": "format-date",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Takes a string and a date object",
   "main": "index.js",
   "scripts": {
@@ -23,16 +23,16 @@
   ],
   "license": "ISC",
   "dependencies": {
-    "format-text": "0.0.3",
-    "left-pad": "0.0.3",
-    "days": "^0.1.0",
-    "months": "^0.1.0"
-  },
-  "devDependencies": {
-    "prova": "^1.14.2"
+    "days": "^1.0.1",
+    "left-pad": "^1.0.1",
+    "months": "^1.0.1",
+    "string-templater": "^1.0.0"
   },
   "bugs": {
     "url": "https://github.com/matthewLarner/format-date/issues"
   },
-  "homepage": "https://github.com/matthewLarner/format-date#readme"
+  "homepage": "https://github.com/matthewLarner/format-date#readme",
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
 }

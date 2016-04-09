@@ -1,6 +1,6 @@
-var format = require("./");
-var test = require("prova");
-var date = new Date(1411358832845);
+var format = require('./'),
+    test = require('tape'),
+    date = new Date(1411358832845);
 
 test('day month and year', function (t) {
   t.plan(1);
