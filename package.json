@@ -1,7 +1,7 @@
 {
   "name": "format-date",
   "version": "1.0.0",
-  "description": "Takes a string and a date object",
+  "description": "Takes a string and a date object, returns what you expect",
   "main": "index.js",
   "scripts": {
     "test": "node test"

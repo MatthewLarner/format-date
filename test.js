@@ -1,18 +1,18 @@
 var format = require('./'),
     test = require('tape'),
-    date = new Date(1411358832845);
+    date = new Date(1460202592458);
 
 test('day month and year', function (t) {
   t.plan(1);
-  t.equal(format('{day} / {month} / {year}', date), '21 / 09 / 2014');
+  t.equal(format('{utc-day} / {utc-month} / {utc-year}', date), '09 / 04 / 2016');
 });
 
 test('day-name month-name and short-year', function (t) {
   t.plan(1);
-  t.equal(format('{month-name} {day}, {day-name}', date), 'September 21, Sunday');
+  t.equal(format('{utc-month-name} {utc-day}, {utc-day-name}', date), 'April 09, Saturday');
 });
 
 test('hours, minutes and seconds', function (t) {
   t.plan(1);
-  t.equal(format('{hours}:{minutes}:{seconds}', date), '21:07:12');
+  t.equal(format('{utc-hours}:{utc-minutes}:{utc-seconds}', date), '11:49:52');
 });
